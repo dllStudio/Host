@@ -7,6 +7,19 @@
     user-select: none;
 }
 
+header {
+    background-color: #333; /* Grigio scuro Donato Frocio*/
+}
+
+main {
+    background-color: #f2f2f2; /* Grigio chiaro */
+}
+
+section {
+    background-color: #fff; /* Bianco */
+}
+
+
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
@@ -20,12 +33,27 @@ h4,
 h5,
 h6,
 p{
-    text-align: center;
+    text-align: justify;
     font-family: 'Asar', serif;
 }
 
-.card{
-    background-color: rgba(0, 0, 0);
+.card {
+    background-color: rgba(0, 0, 0, 0.902);
     color: white;
     border-radius: 15px;
+}
+
+.card-text{
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: rgba(0, 0, 255, 0.411);
+    transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 255, 0.411);
+    box-shadow: -8px 5px 8px rgba(0, 0, 100, 0.925);
+    transform: translateY(-3px);
 }
