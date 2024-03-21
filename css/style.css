@@ -84,11 +84,9 @@ footer {
     margin-top: 20px;
 }
 
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-    header .img{
-        width: 50% !important;
+/* Stili per dispositivi mobili */
+@media only screen and (max-width: 600px) {
+    header img {
+        width: 80% !important; /* Modifica la larghezza dell'immagine per dispositivi mobili */
     }
 }
