@@ -4,6 +4,9 @@
     color: white;
     border-radius: 15px;
 }
+html{
+    background-color: #171717;
+}
 
 .card-text {
     margin-top: 10px;
