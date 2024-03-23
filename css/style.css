@@ -5,22 +5,32 @@
     border-radius: 15px;
 }
 html{
-    background-color: #171717;
+        background-color: #171717;
 }
 
 .card-text {
     margin-top: 10px;
 }
-
-.btn {
-    background-color: rgba(106, 27, 154, 0.411); /* Viola scuro */
-    transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
 }
 
-.btn:hover {
-    background-color: rgba(106, 27, 154, 0.411); /* Viola scuro */
-    box-shadow: -8px 5px 8px rgba(139, 0, 0, 0.925); /* Rosso scuro */
-    transform: translateY(-3px);
+.cardTermini{
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    margin: 30px;
+    height: 680px;
+}
+
+.text{
+    margin: 10px;
+    text-align: center;
+    text-align: justify;
 }
 
 /* Selettori */
@@ -42,12 +52,6 @@ body {
     padding: 20px;
     margin-top: 20px;
     background-color: #17171700;
-}
-
-h1 {
-    color: #ff5733;
-    text-align: center;
-    margin-bottom: 30px;
 }
 
 .graphic {
@@ -94,5 +98,29 @@ footer {
 @media only screen and (max-width: 600px) {
     header img {
         width: 60% !important; /* Modifica la larghezza dell'immagine per dispositivi mobili */
+    }
+    .cardTermini{
+        background-color: #2c2c2c;
+        border-radius: 10px;
+        margin: 30px;
+        height: 100%;
+    }
+    .text{
+        margin: 15px;
+        text-align: center;
+    }
+    p{
+        text-align: left;
+        text-align: justify;
+    }
+    h4{
+        font-weight: bold;
+        text-align: center;
+    }
+    h1,h2,h3,h4,h5,h6,p,a{
+        user-select: none; /* Impedisce la selezione del testo */
+        -moz-user-select: none; /* Per Firefox */
+        -ms-user-select: none; /* Per Internet Explorer/Edge */
+        -webkit-user-select: none; /* Per Chrome, Safari, e Opera */
     }
 }
