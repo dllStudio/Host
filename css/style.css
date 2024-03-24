@@ -21,13 +21,7 @@ main {
     padding: 50px 0; /* Spazio interno nel contenuto principale */
 }
 
-.graphic {
-    background-color: #ffffff; /* Colore di sfondo per i box grafici */
-    padding: 20px;
-    border-radius: 5px; /* Bordo arrotondato per i box */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra leggera per effetto di sollevamento */
-    transition: box-shadow 0.3s ease; /* Effetto di transizione quando il box viene evidenziato */
-}
+
 .graphic p{
     color: #666;
 }
@@ -42,6 +36,7 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
 
 footer a {
     color: #ffffff; /* Colore dei link nel piè di pagina */
@@ -105,7 +100,6 @@ h1,h2,h3,h4,h5,h6,p,a{
         margin: 15px;
         text-align: center;
     }
-    
     h4{
         font-weight: bold;
         text-align: center;
